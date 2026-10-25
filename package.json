@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epa-echo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "EPA ECHO MCP — wraps EPA ECHO Web Services (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f82f1ebb0233d55360a49fc0a2e86ceef64b422b4948482bba16ebe143ae959e",
-    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
+    "sourceHash": "v1-53814b2c1c6171aede5f405b8c66875f4b9cf88b3d52d7dbaff05c191fcfa116",
+    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
   }
 }
