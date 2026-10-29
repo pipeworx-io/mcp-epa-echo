@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-epa-echo",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "EPA ECHO MCP — wraps EPA ECHO Web Services (free, no auth)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-epa-echo": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "epa-echo"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-epa-echo.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/epa-echo",
   "pipeworx": {
-    "sourceHash": "v1-53814b2c1c6171aede5f405b8c66875f4b9cf88b3d52d7dbaff05c191fcfa116",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "epa-echo",
+    "gatewaySlug": "epa-echo",
+    "sourceHash": "v1-a8b1373f9351eebb7fcd206404237ca57c4b18770419c714ca335298c306b748",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
