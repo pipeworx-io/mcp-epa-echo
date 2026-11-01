@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epa-echo",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "EPA ECHO MCP — wraps EPA ECHO Web Services (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "epa-echo",
     "gatewaySlug": "epa-echo",
-    "sourceHash": "v1-a8b1373f9351eebb7fcd206404237ca57c4b18770419c714ca335298c306b748",
-    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
+    "sourceHash": "v1-2603798e3e3e8a450195055317fd1f0abc76a86334b595feec699b87defd5335",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
